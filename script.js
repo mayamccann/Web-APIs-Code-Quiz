@@ -74,6 +74,11 @@ function questionClick() {
 
 }
 
+feedbackEl.setAttribute("class", "feedback") ;
+setTimeout(function() {
+feedbackEl.setAttribute("class", "feedback hide");
+}, 1000);
+
 
 
 
