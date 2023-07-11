@@ -1,4 +1,4 @@
-//Create Vars
+//Create var = document.querySlectors
 var timerEl = document.querySelector("#time") 
 var questionsEl = document.querySelector("#questions")
 var choicesEl = document.querySelector("#choices") 
@@ -64,10 +64,8 @@ function questionClick() {
     timerEl.textContent = time;
     feedbackEl.textContent = "Incorrect, Good Try!";
     feedbackEl.style.color = "orange";
-    feedbackEl.style.fontSize = 400 % ;
-
-} else {
-
+    feedbackEl.style.fontSize = "400%";
+    // else
     feedbackEl.textContent = "Correct, Nice Work!";
     feedbackE1.style.color = "blue";
     feedbackEl.style.fontSize = "400%";
@@ -101,14 +99,14 @@ questionsEl.setAttribute("class", "hide");
 
 }
 
-function clock() [
+function clock() {
     time--;
     timerEl.textContent = time;
 
     if (time <=0) {
         quizEnd();
     }
-]
+}
 
 function saveHighscore() {
     var initials = initialsEl.value.trim();
