@@ -128,3 +128,19 @@ window.location.href = "result.html";
 
 } 
 }
+
+function checkForEnter(event) {
+
+if (event.key === "Enter") {
+    saveHighscore();
+}
+}
+
+// Entering your Initials
+submitBtn.onclick = saveHighscore;
+
+// Beginning the Quiz
+startBtn.onclick = startQuiz;
+
+//
+initialsEl.onkeyup = checkForEnter;
