@@ -1,18 +1,18 @@
 //Create Vars
 var timerEl = document.querySelector("#time")
 var questionsEl = document.querySelector("#questions")
-var optionsEl = document.querySelector("#options")
+var choicesEl = document.querySelector("#choices")
 var submitBtn = document.querySelector("#submit")
-var initialBtn = document.querySelector("#initial")
-var info = document.querySelector("#info")
-var intitials = document.querySelector("#initials")
+var startBtn = document.querySelector("#start")
+var initialsEl = document.querySelector("#intials")
+var feedbackEl = document.querySelector("#feedback")
 
 var currentQuestionIndex = 0;
-var time = questions.length * 20;
+var time = questions.length * 13;
 var timerId;
 
 function startQuiz() {
-    var startScreenEl = document.getElementbyId("intitial-screen");
+    var startScreenEl = document.getElementbyId("start-screen");
     startScreenE1.setAttribute("class", "hide");
 
     questionsEl.removeAttribute("class");
@@ -34,7 +34,7 @@ function getQuestion() {
 
     choicesEl.innerHTML = "";
 
-    currentQuestion.choices.forEach(function (choice, i) {
+    currentQuestion.options.forEach(function (choice, i) {
         var choiceNode = document.createElement("button");
         choiceNode.setAttribute("class", "choice");
         choiceNode.setAttribute("value", choice);
@@ -51,11 +51,14 @@ function getQuestion() {
     function questionClick() {
 
     if (this.value !== questions[currentQuestionIndex].answer) 
-    time -= 15;
+    time -= 5;
     }
-    
+
     if (time < 0) {
         time = 0;
 
     }
+
+    timerEl.textContent = time;
+    
 
