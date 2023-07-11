@@ -1,7 +1,9 @@
 /*font-family=pick font that is the most user friendly*/
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    text-align: center;
 }
 
 .initial {
@@ -37,3 +39,18 @@ body {
     top: 10px;
     position: absolute;
 }
+
+a {
+color: black;
+}
+
+button {
+    color: black;
+    background-color: pink;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 100%;
+
+}
+
