@@ -1,0 +1,1 @@
+var timerEL =document.querySelector("#time");
