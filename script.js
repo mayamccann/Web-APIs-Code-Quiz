@@ -79,7 +79,27 @@ setTimeout(function() {
 feedbackEl.setAttribute("class", "feedback hide");
 }, 1000);
 
+// for the next question
+currentQuestionIndex++;
 
+if (currentQuestionIndex === questions.length) {
+    quizEnd();
+} else {
+getQuestion();
+}
+
+function quizEnd () {
+clearInterval(timerId);
+
+var endScreenEl = document.getElementById("end-screen");
+endScreenEl.removeAttribute("class");
+
+var finalScoreEl = document.getElementById("final-score");
+finalScoreEl.textContent = time;
+
+questionsEl.setAttribute("class", "hide");
+
+}
 
 
 
