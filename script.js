@@ -1,7 +1,7 @@
 //Create Vars
-var timerEl = document.querySelector("#time")
+var timerEl = document.querySelector("#time") 
 var questionsEl = document.querySelector("#questions")
-var choicesEl = document.querySelector("#choices")
+var choicesEl = document.querySelector("#choices") 
 var submitBtn = document.querySelector("#submit")
 var startBtn = document.querySelector("#start")
 var initialsEl = document.querySelector("#intials")
@@ -46,12 +46,12 @@ function getQuestion() {
         choicesEl.appendChild(choiceNode);
     });
 
-    }
+}
 
-    function questionClick() {
+function questionClick() {
 
-    if (this.value !== questions[currentQuestionIndex].answer) 
-    time -= 5;
+    if (this.value !== questions[currentQuestionIndex].answer) {
+        time -= 5;
     }
 
     if (time < 0) {
@@ -59,6 +59,23 @@ function getQuestion() {
 
     }
 
+
+    // Edited Time : NEW
     timerEl.textContent = time;
-    
+    feedbackEl.textContent = "Incorrect, Good Try!";
+    feedbackEl.style.color = "orange";
+    feedbackEl.style.fontSize = 400 % ;
+
+} else {
+
+    feedbackEl.textContent = "Correct, Nice Work!";
+    feedbackE1.style.color = "blue";
+    feedbackEl.style.fontSize = "400%";
+
+}
+
+
+
+
+
 
