@@ -1,0 +1,18 @@
+/*font-family=pick font that is the most user friendly*/
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.initial {
+    text-align: center;
+}
+
+.hidden {
+    dislplay: none;
+}
+
+.wrapper {
+    margin: 90px auto 0 auto;
+    max-width: 700px;
+}
