@@ -16,3 +16,24 @@ body {
     margin: 90px auto 0 auto;
     max-width: 700px;
 }
+
+.info {
+    font-style: italic;
+    color: black;
+    font-size: 120%;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 2px solid rgb(red, green, blue)
+
+}
+.results {
+    right: 30px;
+    top: 30px;
+    position: absolute;
+}
+
+.timer {
+    left: 10px;
+    top: 10px;
+    position: absolute;
+}
