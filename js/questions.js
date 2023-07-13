@@ -11,7 +11,7 @@ var questions = [
 
     {
         title: "An API allows application developers to bypass traditional webpages and interact directly with the underylying service through __________ .",
-        choices: ["Function Calls", "Fetch Calls", "Variables" "querySelectors" ],
+        choices: ["Function Calls", "Fetch Calls", "Variables", "querySelectors" ],
         answer: "Function Calls"
     },
 
@@ -43,8 +43,30 @@ var questions = [
         title: "True or False. Are all of these APIs? Web API, Browser API, Application API and Server API",
         choices: ["True", "False"],
         answer: "False, Application API is not an API"
-    }
+    },
 
     {
-        title: 
-    }
+        title: "Which is not a type of list in HTML?",
+        choices: ["Unordered", "Defined", "Ordered", "Description"],
+        answer: "Defined, Defination/Description is a list"
+    },
+
+    {
+        title: "Which is not an element of the CSS Box Model?",
+        choices: ["Padding", "Border", "Margin", "Display"],
+        answer: "Display"
+    },
+
+    {
+        title: "What is not a data type of JavaScript?",
+        choices: ["Non-Primitive", "Boolean", "Number", "String"],
+        answer: "Non-Primitive"
+    }, 
+
+    {
+        title: "Choose the incorrect statement about GitHub.",
+        choices: ["Cloud-based source code repository", "Installs on local machines", "Provides forking and user management","Provides a central repository for collaborative work"],
+        answer: "Installs on local machines"
+    }, 
+
+];
