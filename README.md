@@ -1,10 +1,17 @@
-#  🏆 Building a Code Quiz : Web APIs 🏆
+# 🏆 Building a Code Quiz : Web APIs 🏆
 Building a Timed Coding Quiz with Multiple-Choice Questions with JS, HTML and CSS
 
 ## 💡 Background
 For this assignment, the goal is to create a Code Quiz that focuses on Web APIs. This challenges allows us to focus on our JavaScript skills and allows further practice with our HTML and CSS knowledge learned in the UConn Coding Bootcamp. It is significant to note that this Web APIs Code Quiz can be shared with those in the computer science field. 
 
 ## 💡 Description 
+
+* The purpose of this challenge is to create an interactive webpage that allows users to complete a timed-coding quiz! The funcitionality of this web application will determine the level of success this webpage holds to its users. Not only do the interactive users embrace the applied knowledge of the developers, this quiz offers furthering education through the quiz. This focal point of this code quiz is Web APIs, but there are bonus questions that cover HTML, CSS, JavaScript and Git. 
+
+* JavaScript, HTML and CSS skills will be showcased when users view this webpage that focuses on functionality of the application.
+
+* The webpage will offer users a chance of competition! Once the quiz is completed, the user will input their initials to submit their scores and the highest scores will be on display! This code quiz is timed and allows users to retry as many times as desired. 
+
 
 ## 💡 User Story
 
