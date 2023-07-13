@@ -1,4 +1,4 @@
-//Create var = document.querySlectors
+//Create var = document.querySlector
 var timerEl = document.querySelector("#time") 
 var questionsEl = document.querySelector("#questions")
 var choicesEl = document.querySelector("#choices") 
