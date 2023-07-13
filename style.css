@@ -6,11 +6,11 @@ body {
     text-align: center;
 }
 
-.initial {
+.start {
     text-align: center;
 }
 
-.hidden {
+.hide {
     display: none;
 }
 
@@ -19,7 +19,7 @@ body {
     max-width: 700px;
 }
 
-.info {
+.feedback {
     font-style: italic;
     color: black;
     font-size: 120%;
@@ -28,7 +28,7 @@ body {
     border-top: 2px solid rgb(red, green, blue)
 
 }
-.results {
+.scores {
     right: 30px;
     top: 30px;
     position: absolute;
@@ -54,3 +54,25 @@ button {
 
 }
 
+button: hover {
+    background-color: gray;
+}
+
+.choices button {
+    display: block;
+}
+
+input[type="text"] {
+    font-size: 100%;
+}
+
+ol {
+    overflow: auto;
+    max-height: 400px;
+    padding-left: 0px;
+}
+
+li {
+    padding: 5px;
+    list-style: decimal inside none;
+}
