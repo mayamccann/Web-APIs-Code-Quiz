@@ -122,7 +122,7 @@ if (initials !== "") {
 highscores.push(newScore);
 window.localStorage.setItem("highscores", JSON.stringify(highscores));
 
-window.location.href = "result.html";
+window.location.href = "score.html";
 
 } 
 }
