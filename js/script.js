@@ -34,7 +34,7 @@ function getQuestion() {
 
     choicesEl.innerHTML = "";
 
-    currentQuestion.options.forEach(function (choice, i) {
+    currentQuestion.choices.forEach(function (choice, i) {
         var choiceNode = document.createElement("button");
         choiceNode.setAttribute("class", "choice");
         choiceNode.setAttribute("value", choice);
