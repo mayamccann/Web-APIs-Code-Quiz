@@ -14,8 +14,27 @@ For this assignment, the goal is to create a Code Quiz that focuses on Web APIs.
 
 
 ## 💡 User Story
+AS A Bootcamp student with knowledge with JavaScript, HTML and CSS
+I WANT to build a webpage that showcases my Web APIs Code Quiz
+SO THAT I can share a webpage that offers Users exposure to learning and reviewing the knowledge I have obtained within the computer science field.
+I WANT to focus on catering to all in the professional and education world to benefit those by learning additional knowledge through completion of the quiz. 
 
 ## 💡 Acceptance Criteria
+GIVEN I must build an interactive webpage
+WHEN I identify the importance of building a functional Web APIs Coding Quiz
+THEN I will begin with creating the code for the HTML file
+THEN I will write a code for the CSS file
+WHEN I will complete the code for the JavaScript file
+THEN I will start building the webpage for the top results/highscores
+WHEN I add variables and functions and if statements to the JS file
+THEN I will test the functionality of the Web APIs Code Quiz
+on the webpage and use the console of the webpage to identify the arrays and other functional aspects of my JavaScript code
+THEN I will confirm the usefulness of the Web APIs Code Quiz
+by completing the quiz and submitting my final scores
+WHEN I review the layout of the entire webpage 
+THEN I will test the functionality of the webpage
+WHEN I view the webpage thoroughly and check if the webpage meets all requirments and all instructions are followed 
+THEN when the completed webpage has complete functionality, quality appearance and displays the proper Web APIs Coding Quiz
 
 ## 💡 Mock-Up
 The following image shows the web application's appearance and functionality (Browser View on a Desktop)
