@@ -12,8 +12,8 @@ var time = questions.length * 13;
 var timerId;
 
 function startQuiz() {
-    var startScreenEl = document.getElementbyId("start-screen");
-    startScreenE1.setAttribute("class", "hide");
+    var startScreenEl = document.getElementById("start-screen");
+    startScreenEl.setAttribute("class", "hide");
 
     questionsEl.removeAttribute("class");
 
@@ -67,7 +67,7 @@ function questionClick() {
     feedbackEl.style.fontSize = "400%";
     // else
     feedbackEl.textContent = "Correct, Nice Work!";
-    feedbackE1.style.color = "blue";
+    feedbackEl.style.color = "blue";
     feedbackEl.style.fontSize = "400%";
 
 }
