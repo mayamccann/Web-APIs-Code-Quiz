@@ -1,4 +1,4 @@
-/*font-family=pick font that is the most user friendly*/
+/*font-family=pick font that is the most user friendly. make font-size readable*/
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -26,30 +26,34 @@ body {
     margin-top: 15px;
     padding-top: 10px;
     border-top: 2px solid rgb(red, green, blue)
-
 }
+
+/*absolute positioning: position of given bounding box from top & left side margins*/
 .scores {
     right: 30px;
     top: 30px;
     position: absolute;
 }
 
+/*position: absolute=positioned relative to the nearest positioned ancestor, if no ancestors, uses document body/moves with page scrolling.*/
 .timer {
     left: 10px;
     top: 10px;
     position: absolute;
 }
 
+/*text-decoration: text formatting, adds underline, overline, line-through, combo of lines to selected text*/
 a {
-color: black;
-text-decoration: none;
-transition: color 0.2s;
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s;
 }
 
+/*display: inline-block = sets width and height on element*/
 button {
     color: black;
     background-color: pink;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-block;
     cursor: pointer;
     font-size: 100%;
@@ -58,7 +62,7 @@ button {
     transition: background-color 0.2s;
 }
 
-button hover {
+button:hover {
     background-color: gray;
 }
 
@@ -70,10 +74,12 @@ a:hover {
     display: block;
 }
 
+/*defines single-line text field*/
 input[type="text"] {
     font-size: 100%;
 }
 
+/*overflow will be clipped at box's padding edge, scroll bar added if needed*/
 ol {
     overflow: auto;
     max-height: 400px;
@@ -85,6 +91,8 @@ li {
     list-style: decimal inside none;
 }
 
-li :nth-child(odd) {
+/*pseudo-class matches elements based on their position among group of siblings. selects li element in a list.
+selector matches every element that is the nth child of its parent. represents odd rows of HTML table*/
+li:nth-child(odd) {
     background-color: aqua;
 }
