@@ -4,13 +4,13 @@
 var questions = [
 
     {
-        title: "What does does API stand for?",
+        title: "What does API stand for?",
         choices: ["Additonal Program Interlock", "Application Programming Interface", "App Programming Internet", "App Program Interaction"],
         answer: "Application Programming Interface"
     },
 
     {
-        title: "An API allows application developers to bypass traditional webpages and interact directly with the underylying service through __________ .",
+        title: "An API allows application developers to bypass traditional webpages and interact directly with the underlying service through __________ .",
         choices: ["Function Calls", "Fetch Calls", "Variables", "querySelectors" ],
         answer: "Function Calls"
     },
@@ -23,8 +23,8 @@ var questions = [
 
     {
         title: "Which one is not an architectural style for creating a Web API?",
-        choices: ["XML/JSON as formatting language", "URI as the address for services", "HTML for client-server communcation", "Stateless Communication"],
-        answer: "HTML for client-server communication, it is HTTP"
+        choices: ["XML/JSON as formatting language", "URI as the address for services", "HTML for client-server communication", "Stateless Communication"],
+        answer: "HTML for client-server communication"
     },
 
     {
@@ -36,19 +36,19 @@ var questions = [
     {
         title: "What one is not a type of APIs used in web services?",
         choices: ["Group", "Public", "Private", "Composite"],
-        answer: "Group, another is Partner"
+        answer: "Group"
     },
 
     {
         title: "True or False. Are all of these APIs? Web API, Browser API, Application API and Server API",
         choices: ["True", "False"],
-        answer: "False, Application API is not an API"
+        answer: "False"
     },
 
     {
         title: "Which is not a type of list in HTML?",
         choices: ["Unordered", "Defined", "Ordered", "Description"],
-        answer: "Defined, Defination/Description is a list"
+        answer: "Defined"
     },
 
     {
