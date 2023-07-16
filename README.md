@@ -41,6 +41,10 @@ The following image shows the web application's appearance and functionality (Br
 
 Creating a Web APIs Code Quiz!
 
+![Web API Quiz A](https://github.com/mayamccann/Web-APIs-Code-Quiz/assets/112992245/0e5897a0-b58a-443c-980a-87c251a6546a)
+
+![Web API Quiz B](https://github.com/mayamccann/Web-APIs-Code-Quiz/assets/112992245/594e1aea-539c-43a9-8bbb-ceaa2ea65ad8)
+
 
 ## 💡Grading Requirements Brief Summary
 

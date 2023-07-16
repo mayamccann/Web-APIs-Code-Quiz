@@ -1,4 +1,4 @@
-//Create var = document.querySlector. DOM elements=
+//Create var = document.querySlector. DOM elements=Document Object Model, programming interface that allows us to create, change, or remove elements from the document. can add events. 
 var timerEl = document.querySelector("#time");
 var questionsEl = document.querySelector("#questions");
 var choicesEl = document.querySelector("#choices");
@@ -79,7 +79,7 @@ function questionClick() {
 
     // Edited Time : updated time on webpage
     timerEl.textContent = time;
-    feedbackEl.textContent = "Incorrect, Good Try!";
+    feedbackEl.textContent = "Incorrect, Nice Try!";
     feedbackEl.style.color = "orange";
     feedbackEl.style.fontSize = "400%";
 
