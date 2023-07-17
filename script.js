@@ -71,38 +71,39 @@ function questionClick() {
     if (this.value !== questions[currentQuestionIndex].answer) {
         time -= 5;
 
-    if (time < 0) {
-        time = 0;
+        if (time < 0) {
+            time = 0;
+        }
+
+
+        // Edited Time : updated time on webpage
+        timerEl.textContent = time;
+        feedbackEl.textContent = "Incorrect, Nice Try!";
+        feedbackEl.style.color = "orange";
+        feedbackEl.style.fontSize = "200%";
+    } else {
+        feedbackEl.textContent = "Correct, Nice Work!";
+        feedbackEl.style.color = "blue";
+        feedbackEl.style.fontSize = "200%";
     }
 
+    //feedback given for incorrect or correct
+    feedbackEl.setAttribute("class", "feedback");
+    setTimeout(function () {
+        feedbackEl.setAttribute("class", "feedback hide");
+    }, 1000);
 
-    // Edited Time : updated time on webpage
-    timerEl.textContent = time;
-    feedbackEl.textContent = "Incorrect, Nice Try!";
-    feedbackEl.style.color = "orange";
-    feedbackEl.style.fontSize = "200%";
-} else {
-    feedbackEl.textContent = "Correct, Nice Work!";
-    feedbackEl.style.color = "blue";
-    feedbackEl.style.fontSize = "200%";
+    // for the next question
+    currentQuestionIndex++;
+
+    //checking the timer
+    if (currentQuestionIndex === questions.length) {
+        quizEnd();
+    } else {
+        getQuestion();
+    }
 }
 
-//feedback given for incorrect or correct
-feedbackEl.setAttribute("class", "feedback");
-setTimeout(function () {
-    feedbackEl.setAttribute("class", "feedback hide");
-}, 1000);
-
-// for the next question
-currentQuestionIndex++;
-
-//checking the timer
-if (currentQuestionIndex === questions.length) {
-    quizEnd();
-} else {
-    getQuestion();
-}
-}
 //Timer :Stop
 function quizEnd() {
     clearInterval(timerId);
@@ -125,7 +126,7 @@ function clockTick() {
     time--;
     timerEl.textContent = time;
 
-    if (time <= 0) {
+    if (time <=0) {
         quizEnd();
     }
 }
@@ -139,8 +140,8 @@ function saveHighscore() {
     var initials = initialsEl.value.trim();
 
     if (initials !== "") {
-        var highscores = 
-        JSON.parse(window.localStorage.getItem("highscores")) || [];
+        var highscores =
+            JSON.parse(window.localStorage.getItem("highscores")) || [];
 
         var newScore = {
             score: time,
