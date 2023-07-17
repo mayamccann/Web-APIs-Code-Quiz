@@ -70,7 +70,6 @@ function questionClick() {
     //user is wrong? time penalty of timer
     if (this.value !== questions[currentQuestionIndex].answer) {
         time -= 5;
-    }
 
     if (time < 0) {
         time = 0;
@@ -81,11 +80,11 @@ function questionClick() {
     timerEl.textContent = time;
     feedbackEl.textContent = "Incorrect, Nice Try!";
     feedbackEl.style.color = "orange";
-    feedbackEl.style.fontSize = "400%";
-
+    feedbackEl.style.fontSize = "200%";
+} else {
     feedbackEl.textContent = "Correct, Nice Work!";
     feedbackEl.style.color = "blue";
-    feedbackEl.style.fontSize = "400%";
+    feedbackEl.style.fontSize = "200%";
 }
 
 //feedback given for incorrect or correct
@@ -103,7 +102,7 @@ if (currentQuestionIndex === questions.length) {
 } else {
     getQuestion();
 }
-
+}
 //Timer :Stop
 function quizEnd() {
     clearInterval(timerId);
