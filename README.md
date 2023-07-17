@@ -45,6 +45,10 @@ Creating a Web APIs Code Quiz!
 
 ![Web API Quiz B](https://github.com/mayamccann/Web-APIs-Code-Quiz/assets/112992245/594e1aea-539c-43a9-8bbb-ceaa2ea65ad8)
 
+![Web API Quiz C](https://github.com/mayamccann/Web-APIs-Code-Quiz/assets/112992245/1575ceec-ffe4-483c-92bf-49bc6a9fd46b)
+
+![Web API Quiz D](https://github.com/mayamccann/Web-APIs-Code-Quiz/assets/112992245/148bcadf-c732-4c00-bead-7dcbd8edf286)
+
 
 ## 💡Grading Requirements Brief Summary
 
